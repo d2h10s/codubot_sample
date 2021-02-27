@@ -1,0 +1,12 @@
+digraph "mStepper::setAcceleration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mStepper::setAcceleration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mStepper::computeNewSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classm_stepper.html#aaa144f38066388f8174cfec927728373",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mStepper::distanceToGo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classm_stepper.html#ac8e6a9138ac550b59a3272478add1383",tooltip=" "];
+}
